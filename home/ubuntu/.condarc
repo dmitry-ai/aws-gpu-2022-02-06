@@ -6,4 +6,5 @@ channels:
   - fastai
   - fastchan
   - defaults
+  - conda-forge
 channel_priority: strict
