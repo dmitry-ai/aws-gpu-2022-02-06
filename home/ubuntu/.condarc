@@ -3,6 +3,7 @@ pkgs_dirs:
 auto_update_conda: false
 auto_activate_base: false
 channels:
-  - conda-forge
+  - fastai
+  - fastchan
   - defaults
-channel_priority: flexible
+channel_priority: strict
