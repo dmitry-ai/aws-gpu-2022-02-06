@@ -3,8 +3,13 @@ pkgs_dirs:
 auto_update_conda: false
 auto_activate_base: false
 channels:
+# 2022-02-08 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# "How did I install `fastbook` in AWS DLAMI?" https://dmitry.ai/t/330
   - fastai
   - fastchan
   - defaults
+# 2022-02-08 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# "How did I fix «package python-… requires libffi >=…,<…, but none of the providers can be installed»
+# on `mamba install fastbook`?" https://dmitry.ai/t/331
   - conda-forge
 channel_priority: strict
