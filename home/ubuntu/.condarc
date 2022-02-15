@@ -12,4 +12,4 @@ channels:
 # "How did I fix «package python-… requires libffi >=…,<…, but none of the providers can be installed»
 # on `mamba install fastbook`?" https://dmitry.ai/t/331
   - conda-forge
-channel_priority: strict
+channel_priority: false
